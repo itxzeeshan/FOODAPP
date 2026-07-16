@@ -19,7 +19,7 @@ function App() {
           <FoodList setFoodId={setFoodId} foodData={foodData} />
         </InnerContainer>
         <InnerContainer>
-          <FoodDetail setFoodId={setFoodId} />
+          <FoodDetail foodId={foodId} />
         </InnerContainer>
       </Container>
     </div>
